@@ -5,7 +5,7 @@ puts " Would you like to put your name in the cup, #{name}? (yes or no)"
 enterCup = gets.chomp.downcase
 case enterCup
 when "yes"
-  puts " Dumbledoor announces that #{name} has been chosen!"
+  puts " Dumbledore announces that #{name} has been chosen!"
   puts " It's time for the first challenge... get the egg from the dragon!"
   puts " You can use wand, broomstick or you can run (like a coward)"
   dragon = gets.chomp.downcase
